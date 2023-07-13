@@ -14,7 +14,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/lad-tech/server.git"
+    "url": "git+https://github.com/lad-tech/config.git"
   },
   "keywords": [
     "config",
