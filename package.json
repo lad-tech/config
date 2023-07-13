@@ -4,6 +4,11 @@
   "description": "Система конфигурации",
   "main": "index.js",
   "types": "types/config.d.ts",
+  "private": false,
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
   "scripts": {
     "test": "metatests tests --dependentSubtests=true"
   },
@@ -22,6 +27,9 @@
   },
   "homepage": "https://github.com/lad-tech/config/README.md",
   "devDependencies": {
-    "metatests": "^0.8.2"
+    "@semantic-release/changelog": "^6.0.2",
+    "@semantic-release/npm": "^9.0.1",
+    "metatests": "^0.8.2",
+    "semantic-release": "^19.0.5"
   }
 }
