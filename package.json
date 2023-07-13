@@ -1,0 +1,27 @@
+{
+  "name": "@lad-tech/config",
+  "version": "1.0.0",
+  "description": "Система конфигурации",
+  "main": "index.js",
+  "types": "types/config.d.ts",
+  "scripts": {
+    "test": "metatests tests --dependentSubtests=true"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lad-tech/server.git"
+  },
+  "keywords": [
+    "config",
+    "lad-tech"
+  ],
+  "author": "eawapownikov@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lad-tech/config/issues"
+  },
+  "homepage": "https://github.com/lad-tech/config/README.md",
+  "devDependencies": {
+    "metatests": "^0.8.2"
+  }
+}
