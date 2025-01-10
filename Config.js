@@ -45,6 +45,7 @@ class Config {
     Object.defineProperty(this, name, {
         get: function() { return item.get() },
         set: function() {},
+        configurable: true
     })
     return item;
   }
